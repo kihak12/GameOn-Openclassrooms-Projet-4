@@ -1,0 +1,90 @@
+@media screen and (max-width: 768px) {
+    .topnav { overflow: visible; margin: 25px 25px 0 25px;}
+    .topnav a {display: none;}
+    .topnav .header-logo a { display: block; }
+    .topnav a.icon {
+        float: right;
+        display: block;
+        color: red;
+    }
+
+    .topnav a:hover, .topnav a.active  {
+        color: #ffffff;
+    }
+
+
+    .topnav.responsive {position: relative;}
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .topnav.responsive .main-navbar a {
+        border-radius: 0;
+    }
+
+    .topnav.responsive .main-navbar a:first-child {
+        border-radius: 7px 7px 0 0;
+    }
+    .topnav.responsive .main-navbar a:last-child {
+        border-radius: 0 0 7px 7px;
+    }
+
+    .main-navbar {
+        position: absolute;
+        z-index: 2;
+        right: 0;
+        top: 60px;
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+        border-radius: 7px;
+    }
+
+    .main-navbar a {
+        margin: 0;
+    }
+
+    .hero-section {
+        display: block;
+        box-shadow: unset;
+    }
+    .hero-content {
+        min-width: auto;
+        background: #fff;
+        color: #000;
+        padding: 10px;
+        gap: 1em;
+    }
+    .hero-content::after {
+        content: unset;
+    }
+    .hero-content .btn-signup {
+        display: none;
+    }
+    .hero-headline {
+        font-size: clamp(40px, 8vw, 4rem);
+        white-space: normal;
+        font-weight: bold;
+    }
+    .hero-text {
+        width: unset;
+        font-size: clamp(16px, 4vw, 24px);
+    }
+    .hero-img {
+        padding: 10px;
+    }
+    .hero-img img {
+        border-radius: 10px;
+    }
+    .hero-section > .btn-signup {
+        display: block;
+        margin: 32px auto 10px;
+        padding: 12px 35px;
+    }
+    .copyrights {
+        margin: 0;
+        text-align: center;
+    }
+}
