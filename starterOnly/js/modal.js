@@ -56,7 +56,7 @@ const agreeTermsOfUseInputField = document.getElementById('checkbox1');
 const subscribeNewsletterInputField  = document.getElementById('checkbox2');
 
 const errorMessages = {
-  first: "Veuillez entrer 2 caractères ou plus pour le champ du nom.",
+  first: "Veuillez entrer 2 caractères ou plus pour le champ du prénom.",
   last: "Veuillez entrer 2 caractères ou plus pour le champ du nom.",
   email: "Veuillez saisir une adresse Email valide.",
   birthdate: "Vous devez entrer votre date de naissance.",
